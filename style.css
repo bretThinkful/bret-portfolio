@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Modak&family=Permanent+Marker&family=Press+Start+2P&display=swap');
+
+
+body {
+    background-color: rgb(241, 223, 223);
+    margin: 0;
+}
+header {
+    background-color: rgb(206, 105, 10)
+    
+}
+
+
+ h1 {
+    font-family: 'Modak', cursive;
+    font-size:  80px;
+    text-align: center;
+    padding-left: 2px;
+}
+ h2 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 34px;
+    text-align: center;
+   
+}
+ h3 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.top {
+    flex: 1;
+    margin: 10px;
+}
+.container img {
+  width:100%;
+    
+
+}
+
+@media all and (min-width: 800px) {
+    section {
+        padding: 0 10%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    
+    
+}
