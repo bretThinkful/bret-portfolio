@@ -28,7 +28,15 @@ header {
     font-size: 30px;
     text-align: center;
 }
-
+section.top>p {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    
+}
+section.top>ul {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
 .container {
     display: flex;
     flex-direction: column;
