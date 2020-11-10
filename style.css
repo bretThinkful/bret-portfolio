@@ -84,7 +84,7 @@ h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 100%;
 }
-#form {
+#form fieldset{
     display:flex;
     flex-direction: row;
 }
@@ -119,7 +119,7 @@ h1 {
         justify-content: baseline;
         
     }
-    #form {
+    #form fieldset {
         display:flex;
         flex-direction: column;
     }
