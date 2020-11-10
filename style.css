@@ -2,11 +2,11 @@
 
 
 body {
-    background-color: rgb(241, 223, 223);
+    background-color: rgb(192, 189, 189);
     margin: 0;
 }
 header {
-    background-color: rgb(206, 105, 10)
+    background-color: rgb(206, 105, 10);
     
 }
 
@@ -21,21 +21,28 @@ header {
     font-family: 'Fredoka One', cursive;
     font-size: 34px;
     text-align: center;
-   
+    background-color: rgb(206, 105, 10);
 }
  h3 {
     font-family: 'Press Start 2P', cursive;
     font-size: 30px;
     text-align: center;
+    background-color: rgb(206, 105, 10);
 }
 section.top>p {
     font-family: 'Fredoka One', cursive;
     text-align: center;
+    font-size: 28px;
     
 }
-section.top>ul {
+section.top>ul>li{
     font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
     text-align: center;
+}
+section.aboutme>p{
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
 }
 .container {
     display: flex;
