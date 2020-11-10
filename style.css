@@ -55,13 +55,13 @@ h1 {
     background-color: rgb(206, 105, 10);
     margin:0;
 }
-section#intro.page>p {
+#home.page>p {
     font-family: 'Fredoka One', cursive;
     text-align: center;
     font-size: 100%;
     
 }
-#intro ul li{
+#home ul li{
     font-family: 'Permanent Marker', cursive;
     font-size: 100%;
     text-align: center;
@@ -76,15 +76,13 @@ section#intro.page>p {
     
 
 }
+
 #project {
     display:flex;
     flex-direction: column;
     flex:1;
     font-family: 'Permanent Marker', cursive;
     font-size: 100%;
-    
-    
-    
 }
 .container {
     display: flex;
@@ -97,13 +95,8 @@ section#intro.page>p {
 }
 
 .container img {
-    justify-content: center;
-    
     width:100%;
-    
-
-}
-
+    }
 @media all and (min-width: 800px) {
     header {
         display: flex;
@@ -115,8 +108,8 @@ section#intro.page>p {
         flex-direction: row;
     }
     .container img {
-        justify-content: center;
-        width: 100%;
+        display: flex;
+        justify-content: baseline;
         
     }
     section#contact {
@@ -128,12 +121,13 @@ section#intro.page>p {
     section#aboutme>p{
         font-size: 24px;
     }
-    section#intro>ul>li{
+    #home.page ul li{
         font-size: 22px;
     }
-    section#intro>p {
+    #home.page p {
         font-size: 24px;
     }
+    
     h3 {
 font-size:28px;
     }
