@@ -85,8 +85,8 @@ h1 {
     font-size: 100%;
 }
 #form fieldset{
-    display:flex;
-    flex-direction: row;
+    display:flex-start;
+    flex-direction: column;
 }
 .container {
     display: flex;
@@ -120,7 +120,7 @@ h1 {
         
     }
     #form fieldset {
-        display:flex;
+        display: inline-flex;
         flex-direction: column;
     }
     section#contact {
