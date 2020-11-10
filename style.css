@@ -34,28 +34,31 @@ header {
     background-color: rgb(206, 105, 10);
     
 }
-section.top>p {
+section#intro>p {
     font-family: 'Fredoka One', cursive;
     text-align: center;
     font-size: 24px;
     
 }
-section.top>ul>li{
+section#intro>ul>li{
     font-family: 'Permanent Marker', cursive;
     font-size: 20px;
     text-align: center;
 }
-section.aboutme>p{
+section#aboutme>p{
     font-family: 'Fredoka One', cursive;
     font-size: 24px;
 }
-section.contact{
+section#contact{
     font-family: 'Fredoka One', cursive;
     font-size: 24px;
     
 
 }
-section.project {
+section#project {
+    display:flex;
+    flex-direction: column;
+    flex:1px;
     font-family: 'Permanent Marker', cursive;
     font-size: 20px;
     
