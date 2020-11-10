@@ -85,8 +85,9 @@ h1 {
     font-size: 100%;
 }
 #form fieldset{
-    display:flex-start;
+    display:flex;
     flex-direction: column;
+    width: auto;
 }
 .container {
     display: flex;
@@ -96,6 +97,9 @@ h1 {
 .page {
     flex: 2;
     margin: 10px;
+}
+.input {
+    display: flex;
 }
 
 .container img {
@@ -122,6 +126,7 @@ h1 {
     #form fieldset {
         display: inline-flex;
         flex-direction: column;
+        
     }
     section#contact {
      font-size: 24px;
