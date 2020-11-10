@@ -70,7 +70,7 @@ section#project {
     flex-direction: column;
 }
 .top {
-    flex: 1px;
+    flex: 2;
     margin: 10px;
 }
 
