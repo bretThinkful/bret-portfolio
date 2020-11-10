@@ -12,14 +12,6 @@ header {
 }
 
 
-h1 {
-    color: rgb(150, 138, 118);
-    font-family: 'Fredoka One', cursive;
-    font-size:  100%;
-    text-align: center;
-    margin:0;
-    
-}
 header nav {
     display: flex;
         justify-content: center;
@@ -33,6 +25,7 @@ header nav ul {
 
 }
 header nav ul li a{
+    font-family: 'Fredoka One', cursive;
     color: #ffffff;
         text-decoration: none;
         margin: 0 20px 0 0;
@@ -41,18 +34,30 @@ header nav ul li a{
 header nav ul li: :last-child a{
     margin-right: 0;
 } 
+h1 {
+    color: rgb(150, 138, 118);
+    font-family: 'Fredoka One', cursive;
+    font-size:  42px;
+    text-align: center;
+    margin:0;
+    
+}
+
+
  h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 100%;
     text-align: center;
     background-color: rgb(206, 105, 10);
-    margin:0;
+    margin: 0;
 }
  h3 {
     font-family: 'Press Start 2P', cursive;
     font-size: 100%;
     text-align: center;
     background-color: rgb(206, 105, 10);
+    margin:
+    
     
 }
 section#intro>p {
@@ -91,7 +96,7 @@ section#project {
     flex-direction: column;
    
 }
-.top {
+.page {
     flex: 2;
     margin: 10px;
 }
@@ -104,12 +109,19 @@ section#project {
 }
 
 @media all and (min-width: 800px) {
-    section {
-        padding: 0 10%;
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
     }
 
     .container {
-        flex-direction: column;
+        flex-direction: row;
+    }
+    .container img {
+        justify-content: center;
+        width: 80%;
+        text-align: center;
     }
     section#contact {
      font-size: 24px;
