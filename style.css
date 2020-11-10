@@ -84,6 +84,10 @@ h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 100%;
 }
+#form {
+    display:flex;
+    flex-direction: row;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -103,6 +107,9 @@ h1 {
         justify-content: space-between;
         padding: 0 30px;
     }
+    header nav {
+        font-size: 24px;
+    }
 
     .container {
         flex-direction: row;
@@ -111,6 +118,10 @@ h1 {
         display: flex;
         justify-content: baseline;
         
+    }
+    #form {
+        display:flex;
+        flex-direction: column;
     }
     section#contact {
      font-size: 24px;
@@ -135,6 +146,6 @@ font-size:28px;
 font-size:28px;
     }
     h1 {
-        font-size: 50px;
+        font-size: 42px;
     }
 }
