@@ -55,28 +55,28 @@ h1 {
     background-color: rgb(206, 105, 10);
     margin:0;
 }
-section#intro>p {
+section#intro.page>p {
     font-family: 'Fredoka One', cursive;
     text-align: center;
     font-size: 100%;
     
 }
-section#intro>ul>li{
+#intro ul li{
     font-family: 'Permanent Marker', cursive;
     font-size: 100%;
     text-align: center;
 }
-section#aboutme>p{
+#aboutme p{
     font-family: 'Fredoka One', cursive;
     font-size: 100%;
 }
-section#contact{
+#contact{
     font-family: 'Fredoka One', cursive;
     font-size: 100%;
     
 
 }
-section#project {
+#project {
     display:flex;
     flex-direction: column;
     flex:1;
@@ -97,6 +97,7 @@ section#project {
 }
 
 .container img {
+    justify-content: center;
     
     width:100%;
     
@@ -115,8 +116,8 @@ section#project {
     }
     .container img {
         justify-content: center;
-        width: 80%;
-        text-align: center;
+        width: 100%;
+        
     }
     section#contact {
      font-size: 24px;
