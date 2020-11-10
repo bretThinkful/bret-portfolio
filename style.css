@@ -58,7 +58,7 @@ section#contact{
 section#project {
     display:flex;
     flex-direction: column;
-    flex:1px;
+    flex:1;
     font-family: 'Permanent Marker', cursive;
     font-size: 20px;
     
