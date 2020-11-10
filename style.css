@@ -31,9 +31,10 @@ header nav ul li a{
         margin: 0 20px 0 0;
 
 }
-header nav ul li: :last-child a{
+header nav ul li: last-child a {
     margin-right: 0;
 } 
+
 h1 {
     color: rgb(150, 138, 118);
     font-family: 'Fredoka One', cursive;
@@ -56,9 +57,7 @@ h1 {
     font-size: 100%;
     text-align: center;
     background-color: rgb(206, 105, 10);
-    margin:
-    
-    
+    margin:0;
 }
 section#intro>p {
     font-family: 'Fredoka One', cursive;
