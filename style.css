@@ -6,22 +6,26 @@ body {
     margin: 0;
 }
 header {
-    background-color: rgb(206, 105, 10);
+     background-image: url(images/universe.jpg);
+    margin: 0;
     
 }
 
 
  h1 {
-    font-family: 'Modak', cursive;
-    font-size:  40px;
+    color: rgb(150, 138, 118);
+    font-family: 'Fredoka One', cursive;
+    font-size:  75px;
     text-align: center;
-    padding-left: 2px;
+    margin:0;
+    
 }
  h2 {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Press Start 2P', cursive;
     font-size: 28px;
     text-align: center;
     background-color: rgb(206, 105, 10);
+    margin:0;
 }
  h3 {
     font-family: 'Press Start 2P', cursive;
@@ -32,7 +36,7 @@ header {
 section.top>p {
     font-family: 'Fredoka One', cursive;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     
 }
 section.top>ul>li{
@@ -44,16 +48,23 @@ section.aboutme>p{
     font-family: 'Fredoka One', cursive;
     font-size: 24px;
 }
+section.bottom{
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
+    margin-top: 0;
+
+}
 .container {
     display: flex;
     flex-direction: column;
 }
 .top {
-    flex: 1;
+    flex: 1px;
     margin: 10px;
 }
 .container img {
-  width:100%;
+    
+    width:100%;
     
 
 }
