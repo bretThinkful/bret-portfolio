@@ -15,21 +15,21 @@ header {
  h1 {
     color: rgb(150, 138, 118);
     font-family: 'Fredoka One', cursive;
-    font-size:  60px;
+    font-size:  100%;
     text-align: center;
     margin:0;
     
 }
  h2 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 28px;
+    font-size: 100%;
     text-align: center;
     background-color: rgb(206, 105, 10);
     margin:0;
 }
  h3 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 28px;
+    font-size: 100%;
     text-align: center;
     background-color: rgb(206, 105, 10);
     
@@ -37,21 +37,21 @@ header {
 section#intro>p {
     font-family: 'Fredoka One', cursive;
     text-align: center;
-    font-size: 24px;
+    font-size: 100%;
     
 }
 section#intro>ul>li{
     font-family: 'Permanent Marker', cursive;
-    font-size: 20px;
+    font-size: 100%;
     text-align: center;
 }
 section#aboutme>p{
     font-family: 'Fredoka One', cursive;
-    font-size: 24px;
+    font-size: 100%;
 }
 section#contact{
     font-family: 'Fredoka One', cursive;
-    font-size: 24px;
+    font-size: 100%;
     
 
 }
@@ -60,7 +60,7 @@ section#project {
     flex-direction: column;
     flex:1;
     font-family: 'Permanent Marker', cursive;
-    font-size: 20px;
+    font-size: 100%;
     
     
     
@@ -68,6 +68,7 @@ section#project {
 .container {
     display: flex;
     flex-direction: column;
+   
 }
 .top {
     flex: 2;
@@ -89,6 +90,28 @@ section#project {
     .container {
         flex-direction: column;
     }
-    
-    
+    section#contact {
+     font-size: 24px;
+    }
+    section#project {
+        font-size: 24px;
+    }
+    section#aboutme>p{
+        font-size: 24px;
+    }
+    section#intro>ul>li{
+        font-size: 22px;
+    }
+    section#intro>p {
+        font-size: 24px;
+    }
+    h3 {
+font-size:28px;
+    }
+    h2 {
+font-size:28px;
+    }
+    h1 {
+        font-size: 50px;
+    }
 }
