@@ -22,7 +22,7 @@ header nav ul {
     }
 header nav ul li a{
     font-family: 'Fredoka One', cursive;
-    color: #ffffff;
+    color: rgb(168, 151, 56);
         text-decoration: none;
         margin: 0 20px 0 0;
 
@@ -33,7 +33,7 @@ header nav ul li:last-child a {
 /* Main Page Content */
 
 h1 {
-    color: white;
+    color: rgb(179, 170, 170);
     font-family: 'Fredoka One', cursive;
     font-size:  100%;
     text-align: center;
